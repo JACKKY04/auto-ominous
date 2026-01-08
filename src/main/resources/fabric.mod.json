@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "auto-ominous",
+  "version": "1.0.0",
+  "name": "Auto Ominous",
+  "description": "Automatically drinks an Ominous Bottle after raid victory.",
+  "authors": ["Jack"],
+  "environment": "client",
+  "entrypoints": {
+    "meteor": ["dev.jack.autoominous.AutoOminousAddon"]
+  },
+  "depends": {
+    "minecraft": "1.21.11",
+    "fabricloader": ">=0.18.4",
+    "meteor-client": "*"
+  }
+}
